@@ -1,0 +1,33 @@
+6844488670f1158a6f08c8c4
+
+Step 1: Identify and list each logical AND and OR gate, with the number inside it. Do not add any inputs or outputs yet.
+
+Step 2: Find the inputs for each intermediate gate in terms of the original variables A, B, C, or D. Consider that ONLY solid dots represent connections between vertical and horizontal lines. Create a list for all gates, identifying if the input is linked to the variable or its negation (Each variable has two branches, the left branch is for the original variable, and the right branch is for the negated variable):
+
+
+
+
+
+Gate 1 is linked to A and D. Only one of these inputs is negated.
+
+
+
+Gate 3 is linked to A, C, and D. Only one of these inputs is negated.
+
+
+
+Gate 4 is linked to A, B, and C. Only B is negated.
+
+
+
+Gate 5 has all variables as inputs: A, B, C, D, and none are negated.
+
+
+
+The output of Gate 2 is not linked to the final gate.
+
+Step 3: Find the output for each intermediate gate in terms of the previously identified inputs. Produce the Boolean expressions using the notation \bar{A} for negated variables, concatenation AB for AND operations, and + for OR operations.
+
+Step 4: Find the connections as solid dots for the output of each intermediate gate to the final gate; if the output does not have a connection dot, ignore it.
+
+Step 5: Find the Boolean expression for the final gate, following the same notation previously used, without simplifying it.

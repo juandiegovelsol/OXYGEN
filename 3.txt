@@ -1,0 +1,9 @@
+68426377c0a83c3dcc98a339
+
+First, create a list for each node only with the arrows going from the node to other nodes. DO NOT include arrows arriving from other nodes to the current node. If the arrow is touching the current node, it is arriving from another node and must not be included; if the arrow is touching the other node, it is going from the current node and must be included.
+
+Second, create a list for possible paths from node 0 to node 7, considering only the previously found information. Note that paths from node 1 to node 5 and from node 6 to node 7 are not possible because of the arrow directionality.
+
+Third, calculate the cost for each of the two possible paths by adding the corresponding individual costs.
+
+Finally, find the path with the least cost and answer the question.

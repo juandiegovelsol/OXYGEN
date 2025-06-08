@@ -1,0 +1,9 @@
+68426388b95f5607d3459355
+
+First, identify the path from $a$ to $e$ with the least distance represented as the sum of the individual distances between nodes. The least distance path has a sum of 12.
+
+Second, identify the edges between nodes that make the path with the least distance, as found in the previous step. Ignore these edges in the subsequent steps.
+
+Third, identify the path with the least distance between nodes $a$ and $e$, ignoring edges as explained before.
+
+Finally, return the distance of the least distance path.
