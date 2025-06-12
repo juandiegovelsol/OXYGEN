@@ -1,0 +1,9 @@
+684698a78422a4c39ac9f155
+
+First, create a list of the edges and their weights (node A, node B) without considering the direction given by the arrows. Ignore all the weights that are prime numbers.
+
+Second, for each element in the list, analyze the image again and identify the tip of the arrow. Reorganize the elements of the list so that the node closer to the tip of the arrow is the destination node; this is the format: (node farther from the tip, node closer to the tip). Now, the list is directed, and it is only possible to go from the first node to the second one.
+
+Third, find the path with the shortest length for going from 1 to 2, using only the previously found list. Note that there are only 2 possible paths from node 1 to node 6, as part of the path to node 2.
+
+Finally, return the sum of all the individual weights of the found path.

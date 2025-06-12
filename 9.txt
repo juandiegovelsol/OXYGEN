@@ -1,0 +1,9 @@
+6847ae09c241f90948b8de17
+
+First, create a list for all the nodes, with the edges to other nodes. Note that node 4 is a neighbor of node 3, and node 7 is a neighbor of node 5. This implies that node 7 can
+only be reached through node 5 and not the other way around; node 7 IS NOT a neighbor of node 2, the only neighbor of 2 is 6.
+
+Second, compare each node's children's values to find the sequence of nodes produced by the search algorithm. For example, node 2's children must be included before node
+4's children, because 2 is lower than 4.
+
+Finally, provide the list of nodes according to the found order.
